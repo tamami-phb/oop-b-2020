@@ -7,10 +7,13 @@ public class Aplikasi {
         // mhs.nim = "19001";
         // mhs.kelas = "A";
         System.out.println(mhs.info());
-        Mahasiswa.nama = "tester";
+        
         Mahasiswa mhs2 = new Mahasiswa("19001","ami", "C");
+        Mahasiswa.nama = "tester";
         System.out.println(mhs2.info() + " " + mhs2.nama);
         System.out.println(mhs.info() + " " + mhs.nama);
+
+        System.out.println(Math.abs(-27));
     }
 
 }
